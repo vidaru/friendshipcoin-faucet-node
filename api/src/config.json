@@ -1,0 +1,41 @@
+{
+  "env": {
+    "MONGO_DATABASE_NAME": "faucet",
+    "MONGO_URL": "mongodb://localhost:27017",
+    "COIN_RPC_USER": "user",
+    "COIN_RPC_PORT": "58009",
+    "COIN_RPC_PASS": "thueN7Uish0ahyahf3wu",
+    "COIN_RPC_URL": "127.0.0.1",
+    "COINHIVE_RECAPTCHA_SITE_KEY": "",
+    "COINHIVE_RECAPTCHA_SECRET_KEY": "",
+    "SMTP_HOST": "smtp.gmail.com",
+    "SMTP_USER": "",
+    "SMTP_PASS": "",
+    "FAUCET_DOMAIN": "host.com",
+    "ADMIN_EMAIL": "admin@example.com",
+    "COINHIVE_NUMBER_HASHES": "256"
+  },
+  "faucet": {
+    "min": 0,
+    "max": 100000,
+    "rewards": [{
+      "chance": 30000,
+      "prize": 1500000
+    }, {
+      "chance": 65000,
+      "prize": 2000000
+    }, {
+      "chance": 3000,
+      "prize": 5000000
+    }, {
+      "chance": 1900,
+      "prize": 10000000
+    }, {
+      "chance": 99,
+      "prize": 50000000
+    }, {
+      "chance": 1,
+      "prize": 1000000000
+    }]
+  }
+}
